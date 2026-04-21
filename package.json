@@ -1,0 +1,20 @@
+{
+  "name": "binance-futures-pump-fingerprint-bot",
+  "version": "1.0.0",
+  "description": "Binance Futures Telegram scanner that learns from pumped tokens and scores long/short candidates.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node -e \"require('./index'); console.log('syntax ok')\""
+  },
+  "dependencies": {
+    "axios": "^1.15.0",
+    "dotenv": "^16.6.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "ws": "^8.18.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

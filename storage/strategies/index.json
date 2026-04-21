@@ -1,0 +1,3142 @@
+[
+  {
+    "id": "XRPUSDT-long-5m-1776356399999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T16:19:59.999Z",
+    "fileName": "2026-04-16T16-19-59-999Z_XRPUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 2.7227
+  },
+  {
+    "id": "BNBUSDT-long-5m-1776355199999",
+    "pair": "BNBUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:59:59.999Z",
+    "fileName": "2026-04-16T15-59-59-999Z_BNBUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 1.5365
+  },
+  {
+    "id": "BTCUSDT-long-5m-1776355199999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:59:59.999Z",
+    "fileName": "2026-04-16T15-59-59-999Z_BTCUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m"
+    ],
+    "resultingExpansionPct": 1.6736
+  },
+  {
+    "id": "ETHUSDT-long-5m-1776355199999",
+    "pair": "ETHUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:59:59.999Z",
+    "fileName": "2026-04-16T15-59-59-999Z_ETHUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.2553
+  },
+  {
+    "id": "SOLUSDT-long-5m-1776355199999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:59:59.999Z",
+    "fileName": "2026-04-16T15-59-59-999Z_SOLUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 3.0299
+  },
+  {
+    "id": "XRPUSDT-long-3m-1776354659999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:50:59.999Z",
+    "fileName": "2026-04-16T15-50-59-999Z_XRPUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "30m"
+    ],
+    "resultingExpansionPct": 1.8271
+  },
+  {
+    "id": "XRPUSDT-long-5m-1776354599999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:49:59.999Z",
+    "fileName": "2026-04-16T15-49-59-999Z_XRPUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 2.7106
+  },
+  {
+    "id": "BNBUSDT-long-5m-1776353999999",
+    "pair": "BNBUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:39:59.999Z",
+    "fileName": "2026-04-16T15-39-59-999Z_BNBUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 1.5257
+  },
+  {
+    "id": "BTCUSDT-long-5m-1776353999999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:39:59.999Z",
+    "fileName": "2026-04-16T15-39-59-999Z_BTCUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m"
+    ],
+    "resultingExpansionPct": 1.6499
+  },
+  {
+    "id": "ETHUSDT-long-5m-1776353999999",
+    "pair": "ETHUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:39:59.999Z",
+    "fileName": "2026-04-16T15-39-59-999Z_ETHUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.0881
+  },
+  {
+    "id": "SOLUSDT-long-5m-1776353999999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:39:59.999Z",
+    "fileName": "2026-04-16T15-39-59-999Z_SOLUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 3.5052
+  },
+  {
+    "id": "BNBUSDT-long-3m-1776353939999",
+    "pair": "BNBUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:38:59.999Z",
+    "fileName": "2026-04-16T15-38-59-999Z_BNBUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "15m",
+      "30m"
+    ],
+    "resultingExpansionPct": 1.314
+  },
+  {
+    "id": "BTCUSDT-long-3m-1776353939999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:38:59.999Z",
+    "fileName": "2026-04-16T15-38-59-999Z_BTCUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m"
+    ],
+    "resultingExpansionPct": 1.3618
+  },
+  {
+    "id": "ETHUSDT-long-3m-1776353939999",
+    "pair": "ETHUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:38:59.999Z",
+    "fileName": "2026-04-16T15-38-59-999Z_ETHUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.0805
+  },
+  {
+    "id": "SOLUSDT-long-3m-1776353939999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:38:59.999Z",
+    "fileName": "2026-04-16T15-38-59-999Z_SOLUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "30m"
+    ],
+    "resultingExpansionPct": 2.8453
+  },
+  {
+    "id": "XRPUSDT-long-3m-1776353939999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:38:59.999Z",
+    "fileName": "2026-04-16T15-38-59-999Z_XRPUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "30m"
+    ],
+    "resultingExpansionPct": 2.1702
+  },
+  {
+    "id": "BTCUSDT-long-1m-1776353879999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:37:59.999Z",
+    "fileName": "2026-04-16T15-37-59-999Z_BTCUSDT_1m_bullish_pump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "5m"
+    ],
+    "resultingExpansionPct": 0.9827
+  },
+  {
+    "id": "ETHUSDT-long-1m-1776353879999",
+    "pair": "ETHUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:37:59.999Z",
+    "fileName": "2026-04-16T15-37-59-999Z_ETHUSDT_1m_bullish_pump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "3m",
+      "15m"
+    ],
+    "resultingExpansionPct": 1.3257
+  },
+  {
+    "id": "SOLUSDT-long-5m-1776353099999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:24:59.999Z",
+    "fileName": "2026-04-16T15-24-59-999Z_SOLUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 3.0956
+  },
+  {
+    "id": "BNBUSDT-long-3m-1776353039999",
+    "pair": "BNBUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:23:59.999Z",
+    "fileName": "2026-04-16T15-23-59-999Z_BNBUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "15m",
+      "30m"
+    ],
+    "resultingExpansionPct": 1.1277
+  },
+  {
+    "id": "SOLUSDT-long-3m-1776353039999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:23:59.999Z",
+    "fileName": "2026-04-16T15-23-59-999Z_SOLUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "30m"
+    ],
+    "resultingExpansionPct": 2.8629
+  },
+  {
+    "id": "SOLUSDT-long-1m-1776352919999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:21:59.999Z",
+    "fileName": "2026-04-16T15-21-59-999Z_SOLUSDT_1m_bullish_pump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "3m"
+    ],
+    "resultingExpansionPct": 1.3816
+  },
+  {
+    "id": "XRPUSDT-long-5m-1776352799999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:19:59.999Z",
+    "fileName": "2026-04-16T15-19-59-999Z_XRPUSDT_5m_bullish_pump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 2.223
+  },
+  {
+    "id": "XRPUSDT-long-3m-1776352679999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:17:59.999Z",
+    "fileName": "2026-04-16T15-17-59-999Z_XRPUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "30m"
+    ],
+    "resultingExpansionPct": 2.2744
+  },
+  {
+    "id": "SOLUSDT-long-1m-1776352559999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:15:59.999Z",
+    "fileName": "2026-04-16T15-15-59-999Z_SOLUSDT_1m_bullish_pump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "3m"
+    ],
+    "resultingExpansionPct": 1.2438
+  },
+  {
+    "id": "XRPUSDT-long-1m-1776352559999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:15:59.999Z",
+    "fileName": "2026-04-16T15-15-59-999Z_XRPUSDT_1m_bullish_pump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "5m"
+    ],
+    "resultingExpansionPct": 1.3005
+  },
+  {
+    "id": "BTCUSDT-long-3m-1776352319999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:11:59.999Z",
+    "fileName": "2026-04-16T15-11-59-999Z_BTCUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m"
+    ],
+    "resultingExpansionPct": 1.2825
+  },
+  {
+    "id": "ETHUSDT-long-3m-1776352319999",
+    "pair": "ETHUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:11:59.999Z",
+    "fileName": "2026-04-16T15-11-59-999Z_ETHUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "15m"
+    ],
+    "resultingExpansionPct": 1.8391
+  },
+  {
+    "id": "SOLUSDT-long-3m-1776352319999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:11:59.999Z",
+    "fileName": "2026-04-16T15-11-59-999Z_SOLUSDT_3m_bullish_pump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "30m"
+    ],
+    "resultingExpansionPct": 2.5074
+  },
+  {
+    "id": "XRPUSDT-long-1m-1776352199999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T15:09:59.999Z",
+    "fileName": "2026-04-16T15-09-59-999Z_XRPUSDT_1m_bullish_pump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "5m"
+    ],
+    "resultingExpansionPct": 1.2519
+  },
+  {
+    "id": "SOLUSDT-long-1m-1776351119999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-16T14:51:59.999Z",
+    "fileName": "2026-04-16T14-51-59-999Z_SOLUSDT_1m_bullish_pump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "3m"
+    ],
+    "resultingExpansionPct": 1.3486
+  },
+  {
+    "id": "BNBUSDT-short-3m-1776349619999",
+    "pair": "BNBUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:26:59.999Z",
+    "fileName": "2026-04-16T14-26-59-999Z_BNBUSDT_3m_bearish_dump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m"
+    ],
+    "resultingExpansionPct": 1.3271
+  },
+  {
+    "id": "BTCUSDT-short-3m-1776349619999",
+    "pair": "BTCUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:26:59.999Z",
+    "fileName": "2026-04-16T14-26-59-999Z_BTCUSDT_3m_bearish_dump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "15m",
+      "30m"
+    ],
+    "resultingExpansionPct": 2.0625
+  },
+  {
+    "id": "ETHUSDT-short-3m-1776349619999",
+    "pair": "ETHUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:26:59.999Z",
+    "fileName": "2026-04-16T14-26-59-999Z_ETHUSDT_3m_bearish_dump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "15m",
+      "30m"
+    ],
+    "resultingExpansionPct": 2.7736
+  },
+  {
+    "id": "XRPUSDT-short-3m-1776349619999",
+    "pair": "XRPUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:26:59.999Z",
+    "fileName": "2026-04-16T14-26-59-999Z_XRPUSDT_3m_bearish_dump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.5551
+  },
+  {
+    "id": "BNBUSDT-short-5m-1776349499999",
+    "pair": "BNBUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:24:59.999Z",
+    "fileName": "2026-04-16T14-24-59-999Z_BNBUSDT_5m_bearish_dump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "1h"
+    ],
+    "resultingExpansionPct": 1.3271
+  },
+  {
+    "id": "BTCUSDT-short-5m-1776349499999",
+    "pair": "BTCUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:24:59.999Z",
+    "fileName": "2026-04-16T14-24-59-999Z_BTCUSDT_5m_bearish_dump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 2.0625
+  },
+  {
+    "id": "ETHUSDT-short-5m-1776349499999",
+    "pair": "ETHUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:24:59.999Z",
+    "fileName": "2026-04-16T14-24-59-999Z_ETHUSDT_5m_bearish_dump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 2.7736
+  },
+  {
+    "id": "XRPUSDT-short-5m-1776349499999",
+    "pair": "XRPUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:24:59.999Z",
+    "fileName": "2026-04-16T14-24-59-999Z_XRPUSDT_5m_bearish_dump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.671
+  },
+  {
+    "id": "SOLUSDT-short-3m-1776349259999",
+    "pair": "SOLUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:20:59.999Z",
+    "fileName": "2026-04-16T14-20-59-999Z_SOLUSDT_3m_bearish_dump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.4506
+  },
+  {
+    "id": "SOLUSDT-short-5m-1776349199999",
+    "pair": "SOLUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:19:59.999Z",
+    "fileName": "2026-04-16T14-19-59-999Z_SOLUSDT_5m_bearish_dump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.462
+  },
+  {
+    "id": "XRPUSDT-short-1m-1776348119999",
+    "pair": "XRPUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T14:01:59.999Z",
+    "fileName": "2026-04-16T14-01-59-999Z_XRPUSDT_1m_bearish_dump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.0137
+  },
+  {
+    "id": "BNBUSDT-short-5m-1776347999999",
+    "pair": "BNBUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:59:59.999Z",
+    "fileName": "2026-04-16T13-59-59-999Z_BNBUSDT_5m_bearish_dump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "1h"
+    ],
+    "resultingExpansionPct": 1.2269
+  },
+  {
+    "id": "BTCUSDT-short-5m-1776347999999",
+    "pair": "BTCUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:59:59.999Z",
+    "fileName": "2026-04-16T13-59-59-999Z_BTCUSDT_5m_bearish_dump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 2.2376
+  },
+  {
+    "id": "ETHUSDT-short-5m-1776347999999",
+    "pair": "ETHUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:59:59.999Z",
+    "fileName": "2026-04-16T13-59-59-999Z_ETHUSDT_5m_bearish_dump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m",
+      "30m",
+      "1h"
+    ],
+    "resultingExpansionPct": 2.5479
+  },
+  {
+    "id": "SOLUSDT-short-5m-1776347999999",
+    "pair": "SOLUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:59:59.999Z",
+    "fileName": "2026-04-16T13-59-59-999Z_SOLUSDT_5m_bearish_dump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.7987
+  },
+  {
+    "id": "XRPUSDT-short-5m-1776347999999",
+    "pair": "XRPUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:59:59.999Z",
+    "fileName": "2026-04-16T13-59-59-999Z_XRPUSDT_5m_bearish_dump.json",
+    "mainSourceTimeframe": "5m",
+    "sourceTimeframes": [
+      "5m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.2374
+  },
+  {
+    "id": "BNBUSDT-short-3m-1776347819999",
+    "pair": "BNBUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:56:59.999Z",
+    "fileName": "2026-04-16T13-56-59-999Z_BNBUSDT_3m_bearish_dump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m"
+    ],
+    "resultingExpansionPct": 1.3536
+  },
+  {
+    "id": "BTCUSDT-short-3m-1776347819999",
+    "pair": "BTCUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:56:59.999Z",
+    "fileName": "2026-04-16T13-56-59-999Z_BTCUSDT_3m_bearish_dump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "15m",
+      "30m"
+    ],
+    "resultingExpansionPct": 2.2376
+  },
+  {
+    "id": "ETHUSDT-short-3m-1776347819999",
+    "pair": "ETHUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:56:59.999Z",
+    "fileName": "2026-04-16T13-56-59-999Z_ETHUSDT_3m_bearish_dump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "15m",
+      "30m"
+    ],
+    "resultingExpansionPct": 2.5479
+  },
+  {
+    "id": "SOLUSDT-short-3m-1776347819999",
+    "pair": "SOLUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:56:59.999Z",
+    "fileName": "2026-04-16T13-56-59-999Z_SOLUSDT_3m_bearish_dump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.7084
+  },
+  {
+    "id": "XRPUSDT-short-3m-1776347819999",
+    "pair": "XRPUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:56:59.999Z",
+    "fileName": "2026-04-16T13-56-59-999Z_XRPUSDT_3m_bearish_dump.json",
+    "mainSourceTimeframe": "3m",
+    "sourceTimeframes": [
+      "3m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "3m",
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.2374
+  },
+  {
+    "id": "BNBUSDT-short-1m-1776347759999",
+    "pair": "BNBUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:55:59.999Z",
+    "fileName": "2026-04-16T13-55-59-999Z_BNBUSDT_1m_bearish_dump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "3m",
+      "5m"
+    ],
+    "resultingExpansionPct": 1.2506
+  },
+  {
+    "id": "BTCUSDT-short-1m-1776347759999",
+    "pair": "BTCUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:55:59.999Z",
+    "fileName": "2026-04-16T13-55-59-999Z_BTCUSDT_1m_bearish_dump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 1.8848
+  },
+  {
+    "id": "ETHUSDT-short-1m-1776347759999",
+    "pair": "ETHUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:55:59.999Z",
+    "fileName": "2026-04-16T13-55-59-999Z_ETHUSDT_1m_bearish_dump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.0607
+  },
+  {
+    "id": "SOLUSDT-short-1m-1776347759999",
+    "pair": "SOLUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:55:59.999Z",
+    "fileName": "2026-04-16T13-55-59-999Z_SOLUSDT_1m_bearish_dump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.1853
+  },
+  {
+    "id": "XRPUSDT-short-1m-1776347759999",
+    "pair": "XRPUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-16T13:55:59.999Z",
+    "fileName": "2026-04-16T13-55-59-999Z_XRPUSDT_1m_bearish_dump.json",
+    "mainSourceTimeframe": "1m",
+    "sourceTimeframes": [
+      "1m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m"
+    ],
+    "resultingExpansionPct": 2.4012
+  },
+  {
+    "id": "XRPUSDT-long-30m-1776283199999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-15T19:59:59.999Z",
+    "fileName": "2026-04-15T19-59-59-999Z_XRPUSDT_30m_bullish_pump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m",
+      "1h",
+      "2h",
+      "4h"
+    ],
+    "resultingExpansionPct": 4.0718
+  },
+  {
+    "id": "SOLUSDT-short-1h-1776239999999",
+    "pair": "SOLUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-15T07:59:59.999Z",
+    "fileName": "2026-04-15T07-59-59-999Z_SOLUSDT_1h_bearish_dump.json",
+    "mainSourceTimeframe": "1h",
+    "sourceTimeframes": [
+      "1h"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1h"
+    ],
+    "resultingExpansionPct": 5.3621
+  },
+  {
+    "id": "SOLUSDT-short-30m-1776207599999",
+    "pair": "SOLUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T22:59:59.999Z",
+    "fileName": "2026-04-14T22-59-59-999Z_SOLUSDT_30m_bearish_dump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m"
+    ],
+    "resultingExpansionPct": 4.6059
+  },
+  {
+    "id": "BNBUSDT-short-15m-1776198599999",
+    "pair": "BNBUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T20:29:59.999Z",
+    "fileName": "2026-04-14T20-29-59-999Z_BNBUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "1h"
+    ],
+    "resultingExpansionPct": 1.8196
+  },
+  {
+    "id": "SOLUSDT-short-15m-1776198599999",
+    "pair": "SOLUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T20:29:59.999Z",
+    "fileName": "2026-04-14T20-29-59-999Z_SOLUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m"
+    ],
+    "resultingExpansionPct": 3.2037
+  },
+  {
+    "id": "BNBUSDT-short-15m-1776194999999",
+    "pair": "BNBUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T19:29:59.999Z",
+    "fileName": "2026-04-14T19-29-59-999Z_BNBUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "1h"
+    ],
+    "resultingExpansionPct": 2.0357
+  },
+  {
+    "id": "ETHUSDT-short-15m-1776194999999",
+    "pair": "ETHUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T19:29:59.999Z",
+    "fileName": "2026-04-14T19-29-59-999Z_ETHUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 2.682
+  },
+  {
+    "id": "BTCUSDT-short-15m-1776193199999",
+    "pair": "BTCUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T18:59:59.999Z",
+    "fileName": "2026-04-14T18-59-59-999Z_BTCUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 2.6566
+  },
+  {
+    "id": "ETHUSDT-short-15m-1776193199999",
+    "pair": "ETHUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T18:59:59.999Z",
+    "fileName": "2026-04-14T18-59-59-999Z_ETHUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 3.4877
+  },
+  {
+    "id": "SOLUSDT-short-15m-1776193199999",
+    "pair": "SOLUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T18:59:59.999Z",
+    "fileName": "2026-04-14T18-59-59-999Z_SOLUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m"
+    ],
+    "resultingExpansionPct": 3.8977
+  },
+  {
+    "id": "XRPUSDT-short-15m-1776193199999",
+    "pair": "XRPUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T18:59:59.999Z",
+    "fileName": "2026-04-14T18-59-59-999Z_XRPUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m"
+    ],
+    "resultingExpansionPct": 2.6577
+  },
+  {
+    "id": "BTCUSDT-short-15m-1776188699999",
+    "pair": "BTCUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T17:44:59.999Z",
+    "fileName": "2026-04-14T17-44-59-999Z_BTCUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 2.1151
+  },
+  {
+    "id": "ETHUSDT-short-15m-1776188699999",
+    "pair": "ETHUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T17:44:59.999Z",
+    "fileName": "2026-04-14T17-44-59-999Z_ETHUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 2.8579
+  },
+  {
+    "id": "SOLUSDT-short-15m-1776188699999",
+    "pair": "SOLUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T17:44:59.999Z",
+    "fileName": "2026-04-14T17-44-59-999Z_SOLUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m"
+    ],
+    "resultingExpansionPct": 3.0018
+  },
+  {
+    "id": "XRPUSDT-short-15m-1776188699999",
+    "pair": "XRPUSDT",
+    "direction": "short",
+    "eventTime": "2026-04-14T17:44:59.999Z",
+    "fileName": "2026-04-14T17-44-59-999Z_XRPUSDT_15m_bearish_dump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m"
+    ],
+    "resultingExpansionPct": 2.0111
+  },
+  {
+    "id": "BNBUSDT-long-2h-1776182399999",
+    "pair": "BNBUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-14T15:59:59.999Z",
+    "fileName": "2026-04-14T15-59-59-999Z_BNBUSDT_2h_bullish_pump.json",
+    "mainSourceTimeframe": "2h",
+    "sourceTimeframes": [
+      "2h"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "2h",
+      "4h",
+      "6h",
+      "1d"
+    ],
+    "resultingExpansionPct": 5.1682
+  },
+  {
+    "id": "BTCUSDT-long-2h-1776182399999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-14T15:59:59.999Z",
+    "fileName": "2026-04-14T15-59-59-999Z_BTCUSDT_2h_bullish_pump.json",
+    "mainSourceTimeframe": "2h",
+    "sourceTimeframes": [
+      "2h"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "2h",
+      "6h",
+      "1d"
+    ],
+    "resultingExpansionPct": 6.8201
+  },
+  {
+    "id": "ETHUSDT-long-2h-1776182399999",
+    "pair": "ETHUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-14T15:59:59.999Z",
+    "fileName": "2026-04-14T15-59-59-999Z_ETHUSDT_2h_bullish_pump.json",
+    "mainSourceTimeframe": "2h",
+    "sourceTimeframes": [
+      "2h"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "2h",
+      "1d"
+    ],
+    "resultingExpansionPct": 10.5651
+  },
+  {
+    "id": "SOLUSDT-long-15m-1776126599999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-14T00:29:59.999Z",
+    "fileName": "2026-04-14T00-29-59-999Z_SOLUSDT_15m_bullish_pump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 3.6325
+  },
+  {
+    "id": "ETHUSDT-long-1h-1776124799999",
+    "pair": "ETHUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:59:59.999Z",
+    "fileName": "2026-04-13T23-59-59-999Z_ETHUSDT_1h_bullish_pump.json",
+    "mainSourceTimeframe": "1h",
+    "sourceTimeframes": [
+      "1h"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "1h",
+      "1d"
+    ],
+    "resultingExpansionPct": 9.7634
+  },
+  {
+    "id": "ETHUSDT-long-2h-1776124799999",
+    "pair": "ETHUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:59:59.999Z",
+    "fileName": "2026-04-13T23-59-59-999Z_ETHUSDT_2h_bullish_pump.json",
+    "mainSourceTimeframe": "2h",
+    "sourceTimeframes": [
+      "2h"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "2h",
+      "1d"
+    ],
+    "resultingExpansionPct": 9.6363
+  },
+  {
+    "id": "BNBUSDT-long-15m-1776122999999",
+    "pair": "BNBUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:29:59.999Z",
+    "fileName": "2026-04-13T23-29-59-999Z_BNBUSDT_15m_bullish_pump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 2.3096
+  },
+  {
+    "id": "BNBUSDT-long-30m-1776122999999",
+    "pair": "BNBUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:29:59.999Z",
+    "fileName": "2026-04-13T23-29-59-999Z_BNBUSDT_30m_bullish_pump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m",
+      "1h",
+      "2h",
+      "4h"
+    ],
+    "resultingExpansionPct": 2.6475
+  },
+  {
+    "id": "BTCUSDT-long-30m-1776122999999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:29:59.999Z",
+    "fileName": "2026-04-13T23-29-59-999Z_BTCUSDT_30m_bullish_pump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m"
+    ],
+    "resultingExpansionPct": 4.2415
+  },
+  {
+    "id": "ETHUSDT-long-15m-1776122999999",
+    "pair": "ETHUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:29:59.999Z",
+    "fileName": "2026-04-13T23-29-59-999Z_ETHUSDT_15m_bullish_pump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m"
+    ],
+    "resultingExpansionPct": 7.581
+  },
+  {
+    "id": "ETHUSDT-long-30m-1776122999999",
+    "pair": "ETHUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:29:59.999Z",
+    "fileName": "2026-04-13T23-29-59-999Z_ETHUSDT_30m_bullish_pump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m"
+    ],
+    "resultingExpansionPct": 8.2136
+  },
+  {
+    "id": "SOLUSDT-long-15m-1776122999999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:29:59.999Z",
+    "fileName": "2026-04-13T23-29-59-999Z_SOLUSDT_15m_bullish_pump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 3.9645
+  },
+  {
+    "id": "SOLUSDT-long-30m-1776122999999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:29:59.999Z",
+    "fileName": "2026-04-13T23-29-59-999Z_SOLUSDT_30m_bullish_pump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m",
+      "1h",
+      "2h",
+      "4h"
+    ],
+    "resultingExpansionPct": 5.0593
+  },
+  {
+    "id": "XRPUSDT-long-15m-1776122999999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:29:59.999Z",
+    "fileName": "2026-04-13T23-29-59-999Z_XRPUSDT_15m_bullish_pump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 3.4223
+  },
+  {
+    "id": "XRPUSDT-long-30m-1776122999999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:29:59.999Z",
+    "fileName": "2026-04-13T23-29-59-999Z_XRPUSDT_30m_bullish_pump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m",
+      "1h",
+      "2h",
+      "4h"
+    ],
+    "resultingExpansionPct": 3.7712
+  },
+  {
+    "id": "BTCUSDT-long-15m-1776122099999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:14:59.999Z",
+    "fileName": "2026-04-13T23-14-59-999Z_BTCUSDT_15m_bullish_pump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m"
+    ],
+    "resultingExpansionPct": 3.8075
+  },
+  {
+    "id": "SOLUSDT-long-15m-1776122099999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T23:14:59.999Z",
+    "fileName": "2026-04-13T23-14-59-999Z_SOLUSDT_15m_bullish_pump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 4.5801
+  },
+  {
+    "id": "BNBUSDT-long-30m-1776121199999",
+    "pair": "BNBUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T22:59:59.999Z",
+    "fileName": "2026-04-13T22-59-59-999Z_BNBUSDT_30m_bullish_pump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m",
+      "1h",
+      "2h",
+      "4h"
+    ],
+    "resultingExpansionPct": 3.2925
+  },
+  {
+    "id": "BTCUSDT-long-30m-1776121199999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T22:59:59.999Z",
+    "fileName": "2026-04-13T22-59-59-999Z_BTCUSDT_30m_bullish_pump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m"
+    ],
+    "resultingExpansionPct": 5.064
+  },
+  {
+    "id": "SOLUSDT-long-30m-1776121199999",
+    "pair": "SOLUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T22:59:59.999Z",
+    "fileName": "2026-04-13T22-59-59-999Z_SOLUSDT_30m_bullish_pump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m",
+      "1h",
+      "2h",
+      "4h"
+    ],
+    "resultingExpansionPct": 4.7359
+  },
+  {
+    "id": "BNBUSDT-long-15m-1776119399999",
+    "pair": "BNBUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T22:29:59.999Z",
+    "fileName": "2026-04-13T22-29-59-999Z_BNBUSDT_15m_bullish_pump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 1.9582
+  },
+  {
+    "id": "XRPUSDT-long-15m-1776119399999",
+    "pair": "XRPUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T22:29:59.999Z",
+    "fileName": "2026-04-13T22-29-59-999Z_XRPUSDT_15m_bullish_pump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m",
+      "30m",
+      "1h",
+      "4h"
+    ],
+    "resultingExpansionPct": 2.9745
+  },
+  {
+    "id": "BTCUSDT-long-15m-1776118499999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T22:14:59.999Z",
+    "fileName": "2026-04-13T22-14-59-999Z_BTCUSDT_15m_bullish_pump.json",
+    "mainSourceTimeframe": "15m",
+    "sourceTimeframes": [
+      "15m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "15m"
+    ],
+    "resultingExpansionPct": 2.4951
+  },
+  {
+    "id": "BTCUSDT-long-30m-1776110399999",
+    "pair": "BTCUSDT",
+    "direction": "long",
+    "eventTime": "2026-04-13T19:59:59.999Z",
+    "fileName": "2026-04-13T19-59-59-999Z_BTCUSDT_30m_bullish_pump.json",
+    "mainSourceTimeframe": "30m",
+    "sourceTimeframes": [
+      "30m"
+    ],
+    "savedTimeframes": [
+      "1m",
+      "3m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "4h",
+      "6h",
+      "8h",
+      "12h",
+      "1d",
+      "3d",
+      "1w"
+    ],
+    "supportingTimeframes": [
+      "30m"
+    ],
+    "resultingExpansionPct": 3.8544
+  }
+]
