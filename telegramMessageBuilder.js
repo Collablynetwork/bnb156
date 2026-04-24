@@ -27,6 +27,17 @@ function formatPct(value, digits = 2) {
   return Number.isFinite(num) ? `${round(num, digits)}%` : "N/A";
 }
 
+function formatFundingRate(value) {
+  const num = Number(value);
+  if (!Number.isFinite(num)) return "N/A";
+  return `${num >= 0 ? "+" : ""}${(num * 100).toFixed(4)}%`;
+}
+
+function formatFundingBias(value) {
+  const normalized = String(value || "").toUpperCase();
+  return normalized === "LONG" || normalized === "SHORT" ? `${normalized} bias` : "Neutral";
+}
+
 function sideEmoji(side) {
   return String(side || "").toUpperCase() === "SHORT" ? "🔴" : "🟢";
 }
@@ -48,17 +59,16 @@ function buildSignalMessage(candidate) {
     `⏱ Base TF: ${candidate.baseTimeframe || candidate.baseTf || "N/A"}`,
     `📚 Support TFs (${supportTfs.length}): ${supportTfs.join(", ") || "N/A"}`,
     `🎯 Score: ${formatScore(candidate.score)}`,
+    `💸 Funding Rate: ${formatFundingRate(candidate.fundingRate)} (${formatFundingBias(candidate.fundingBias)})`,
     `💵 Entry Price: ${formatPrice(candidate.entry)}`,
-    `✅ Target 1 (0.2%): ${formatPrice(candidate.target1Price)}`,
-    `✅ Target 2 (Adjusted TP1): ${formatPrice(candidate.target2Price)}`,
-    `❌ SL1 (0.2%): ${formatPrice(candidate.sl1Price)}`,
-    `❌ SL2 (Adjusted SL): ${formatPrice(candidate.sl2Price)}`,
+    `✅ Target Price (Adjusted TP1): ${formatPrice(candidate.target2Price ?? candidate.target1Price)}`,
+    `❌ Stop Loss (Adjusted SL): ${formatPrice(candidate.sl2Price ?? candidate.sl1Price)}`,
     `📌 TP3 (ignored in stats): ${formatPrice(candidate.ignoredTp3)}`,
     `📌 TP4 (ignored in stats): ${formatPrice(candidate.ignoredTp4)}`,
     `⚖️ Risk/Reward: ${formatRatio(candidate.riskReward)}`,
     `🧠 Strategy Source: ${candidate.strategyUsed || candidate.strategySource || "N/A"}`,
     reasons.length ? `✅ Conditions: ${reasons.join(" | ")}` : "✅ Conditions: Matched learned setup",
-    `ℹ️ Performance uses only Target 1, Target 2, SL1, and SL2. TP3 and TP4 are ignored for performance calculation.`,
+    `ℹ️ Performance uses only final PNL target and final stop loss. Legacy PNL1 is removed.`,
   ].join("\n");
 }
 
@@ -82,41 +92,37 @@ function buildScoreRisingMessage({ pair, baseTf, oldScore, newScore, updates = [
   ].filter(Boolean).join("\n");
 }
 
-function buildTargetHitMessage(position, targetType) {
-  const isTwo = String(targetType).toUpperCase().includes("2");
-  const title = isTwo ? "✅ TARGET ACHIEVED 2" : "✅ TARGET ACHIEVED 1";
-  const targetPrice = isTwo ? position.target2Price : position.target1Price;
-  const pnlAmount = isTwo ? position.pnl2PnlAmount : position.pnl1PnlAmount;
-  const pnlPct = isTwo ? position.pnl2PnlPct : position.pnl1PnlPct;
+function buildTargetHitMessage(position) {
+  const targetPrice = position.target2Price ?? position.target1Price;
+  const pnlAmount = position.pnl2PnlAmount ?? position.pnl1PnlAmount;
+  const pnlPct = position.pnl2PnlPct ?? position.pnl1PnlPct;
 
   return [
-    title,
+    "✅ TARGET ACHIEVED",
     `🪙 Pair: ${position.pair}`,
     `📍 Side: ${position.side}`,
     `⏱ Base TF: ${position.baseTimeframe}`,
     `💵 Entry: ${formatPrice(position.entryPrice || position.entry)}`,
     `🏁 Exit Target: ${formatPrice(targetPrice)}`,
     `📌 Current Mark: ${formatPrice(position.currentMark)}`,
-    `💹 Model PNL: ${formatPrice(pnlAmount)} (${formatPct(pnlPct)})`,
+    `💹 PNL: ${formatPrice(pnlAmount)} (${formatPct(pnlPct)})`,
   ].join("\n");
 }
 
-function buildStopHitMessage(position, stopType) {
-  const isTwo = String(stopType).toUpperCase().includes("2");
-  const title = isTwo ? "❌ SL2 HIT" : "❌ SL1 HIT";
-  const stopPrice = isTwo ? position.sl2Price : position.sl1Price;
-  const pnlAmount = isTwo ? position.pnl2PnlAmount : position.pnl1PnlAmount;
-  const pnlPct = isTwo ? position.pnl2PnlPct : position.pnl1PnlPct;
+function buildStopHitMessage(position) {
+  const stopPrice = position.sl2Price ?? position.sl1Price;
+  const pnlAmount = position.pnl2PnlAmount ?? position.pnl1PnlAmount;
+  const pnlPct = position.pnl2PnlPct ?? position.pnl1PnlPct;
 
   return [
-    title,
+    "❌ STOP LOSS HIT",
     `🪙 Pair: ${position.pair}`,
     `📍 Side: ${position.side}`,
     `⏱ Base TF: ${position.baseTimeframe}`,
     `💵 Entry: ${formatPrice(position.entryPrice || position.entry)}`,
     `🧯 Stop Price: ${formatPrice(stopPrice)}`,
     `📌 Exit Mark: ${formatPrice(position.currentMark)}`,
-    `💥 Model PNL: ${formatPrice(pnlAmount)} (${formatPct(pnlPct)})`,
+    `💥 PNL: ${formatPrice(pnlAmount)} (${formatPct(pnlPct)})`,
   ].join("\n");
 }
 

@@ -11,26 +11,35 @@ state.ensureStorage();
 const signals = require('./signals');
 const dryrun = require('./dryrun');
 const config = require('./config');
+const { buildSignalMessage } = require('./telegramMessageBuilder');
+
+function makeFeatures(overrides = {}) {
+  return {
+    currentClose: 100,
+    atr14: 0.5,
+    support: 99.4,
+    resistance: 101.8,
+    recentHigh20: 101.3,
+    recentLow20: 98.7,
+    bbBasis: 100.5,
+    ...overrides,
+  };
+}
 
 function makeMatch(overrides = {}) {
+  const { current: currentOverride = {}, ...rest } = overrides;
   return {
     pair: 'BTCUSDT',
     direction: 'long',
     score: 86,
     baseTimeframe: '1m',
     current: {
-      features: {
-        currentClose: 100,
-        atr14: 0.5,
-        support: 99.4,
-        resistance: 101.8,
-        recentHigh20: 101.3,
-        recentLow20: 98.7,
-      }
+      features: makeFeatures(currentOverride.features || {}),
+      flow: currentOverride.flow || {},
     },
     supportTimeframes: ['1m', '3m', '5m'],
     reasons: ['rule A', 'rule B'],
-    ...overrides,
+    ...rest,
   };
 }
 
@@ -46,6 +55,61 @@ assert.strictEqual(candidate.target1Price.toFixed(4), '100.2000');
 assert.strictEqual(candidate.sl1Price.toFixed(4), '99.8000');
 assert(candidate.target2Price < candidate.originalSystemTp1, 'Long adjusted TP1 should be lower');
 assert(candidate.sl2Price < candidate.originalSystemSl, 'Long adjusted SL should be lower');
+
+// 1b) Funding rate direction filter
+const fundingLong = signals.buildSignalCandidate(
+  makeMatch({
+    current: {
+      features: makeFeatures({ currentClose: 100, bbBasis: 100.5 }),
+      flow: { fundingRate: -0.0002 },
+    },
+  })
+);
+assert(fundingLong, 'Negative funding should allow LONG when price is below BB mid-band');
+assert.strictEqual(fundingLong.side, 'LONG');
+assert.strictEqual(fundingLong.fundingBias, 'LONG');
+assert(buildSignalMessage(fundingLong).includes('Funding Rate'), 'Telegram signal message should include funding rate');
+
+const blockedShortOnNegativeFunding = signals.buildSignalCandidate(
+  makeMatch({
+    direction: 'short',
+    current: {
+      features: makeFeatures({ currentClose: 101, bbBasis: 100.5 }),
+      flow: { fundingRate: -0.0002 },
+    },
+  })
+);
+assert.strictEqual(blockedShortOnNegativeFunding, null, 'Negative funding should block SHORT signals');
+
+const blockedLongAboveMidBand = signals.buildSignalCandidate(
+  makeMatch({
+    current: {
+      features: makeFeatures({ currentClose: 101, bbBasis: 100.5 }),
+      flow: { fundingRate: -0.0002 },
+    },
+  })
+);
+assert.strictEqual(blockedLongAboveMidBand, null, 'Negative funding LONG must stay below BB mid-band');
+
+const fundingShort = signals.buildSignalCandidate(
+  makeMatch({
+    direction: 'short',
+    current: {
+      features: makeFeatures({
+        currentClose: 100.9,
+        bbBasis: 100.5,
+        support: 99.1,
+        resistance: 101.7,
+        recentHigh20: 101.8,
+        recentLow20: 98.9,
+      }),
+      flow: { fundingRate: 0.0002 },
+    },
+  })
+);
+assert(fundingShort, 'Positive funding should allow SHORT when price is above BB mid-band');
+assert.strictEqual(fundingShort.side, 'SHORT');
+assert.strictEqual(fundingShort.fundingBias, 'SHORT');
 
 // 2) One blocking signal at a time
 const first = dryrun.registerSignal({ ...candidate, signalKey: signals.buildSignalKey(candidate), signalMessageId: 111 });
@@ -83,9 +147,39 @@ assert(pnl1.totalSignals >= 2, 'PNL1 total signals should count all trades');
 assert(pnl1.targetCount >= 1, 'PNL1 target count should update');
 assert(pnl2.targetCount >= 1, 'PNL2 target count should update');
 
+// 7) Active signal slots should be configurable
+state.clearAllTradingStatus();
+state.saveRuntimeSettings({ activeSignalSlots: 2 });
+assert.strictEqual(state.getRuntimeSettings().activeSignalSlots, 2, 'Runtime settings should persist slot count');
+
+const slotCandidate1 = signals.buildSignalCandidate(makeMatch({ pair: 'BTCUSDT' }));
+const slotCandidate2 = signals.buildSignalCandidate(
+  makeMatch({
+    pair: 'ETHUSDT',
+    current: { features: makeFeatures({ currentClose: 200, support: 198.5, resistance: 203.2, recentHigh20: 202.1, recentLow20: 197.3, bbBasis: 200.5 }) },
+  })
+);
+const slotCandidate3 = signals.buildSignalCandidate(
+  makeMatch({
+    pair: 'XRPUSDT',
+    current: { features: makeFeatures({ currentClose: 0.51, support: 0.5, resistance: 0.53, recentHigh20: 0.525, recentLow20: 0.49, bbBasis: 0.515 }) },
+  })
+);
+
+assert(dryrun.registerSignal({ ...slotCandidate1, signalKey: signals.buildSignalKey(slotCandidate1), signalMessageId: 444 }), 'First blocking signal should open with 2 slots');
+assert(dryrun.registerSignal({ ...slotCandidate2, signalKey: signals.buildSignalKey(slotCandidate2), signalMessageId: 555 }), 'Second blocking signal should open with 2 slots');
+assert.strictEqual(dryrun.canOpenNewSignal(), false, 'Gate should close after all configured slots are used');
+assert.strictEqual(
+  dryrun.registerSignal({ ...slotCandidate3, signalKey: signals.buildSignalKey(slotCandidate3), signalMessageId: 666 }),
+  null,
+  'Third blocking signal should be rejected when slot limit is reached'
+);
+
 console.log('All smoke tests passed');
 console.log(JSON.stringify({
   candidate,
+  fundingLong,
+  fundingShort,
   pnl1,
   pnl2,
   openTrades: dryrun.loadOpenPositions().length,

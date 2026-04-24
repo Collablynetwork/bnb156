@@ -1,21 +1,21 @@
 const config = require("./config");
-const { readJson, writeJson, nowIso } = require("./state");
+const state = require("./state");
 const { round } = require("./indicators");
 
 function loadOpenPositions() {
-  return readJson(config.dryRunPositionsPath, []);
+  return state.readJson(config.dryRunPositionsPath, []);
 }
 
 function saveOpenPositions(positions) {
-  writeJson(config.dryRunPositionsPath, positions);
+  state.writeJson(config.dryRunPositionsPath, positions);
 }
 
 function loadClosedTrades() {
-  return readJson(config.closedTradesPath, []);
+  return state.readJson(config.closedTradesPath, []);
 }
 
 function saveClosedTrades(trades) {
-  writeJson(config.closedTradesPath, trades);
+  state.writeJson(config.closedTradesPath, trades);
 }
 
 function uniqueStrings(values) {
@@ -85,10 +85,11 @@ function createPosition(signal) {
     strategyUsed: buildStrategyUsed(signal),
     strategySource: buildStrategyUsed(signal),
     score: Number(signal.score || 0),
+    fundingRate: Number.isFinite(Number(signal.fundingRate)) ? Number(signal.fundingRate) : null,
     signalMessageId: signal.signalMessageId || null,
     messageId: signal.signalMessageId || null,
-    openedAt: nowIso(),
-    openTime: nowIso(),
+    openedAt: state.nowIso(),
+    openTime: state.nowIso(),
     firstClosedAt: null,
     closeTime: null,
     currentMark: entry,
@@ -124,7 +125,7 @@ function isFullyClosed(position) {
 function releaseSignalGate(position) {
   if (position.blocksNewSignals && (position.pnl1Status !== "OPEN" || position.pnl2Status !== "OPEN")) {
     position.blocksNewSignals = false;
-    position.firstClosedAt = position.firstClosedAt || nowIso();
+    position.firstClosedAt = position.firstClosedAt || state.nowIso();
   }
 }
 
@@ -132,7 +133,7 @@ function refreshOverallStatus(position) {
   if (isFullyClosed(position)) {
     position.monitoringActive = false;
     position.status = "CLOSED";
-    position.closeTime = position.closeTime || nowIso();
+    position.closeTime = position.closeTime || state.nowIso();
     position.closedAt = position.closeTime;
     position.realizedPnl = round((position.pnl1PnlAmount || 0) + (position.pnl2PnlAmount || 0), 6);
   } else if (position.pnl1Status !== "OPEN" || position.pnl2Status !== "OPEN") {
@@ -144,7 +145,7 @@ function refreshOverallStatus(position) {
 }
 
 function markModelClosed(position, model, status, exitPrice) {
-  const now = nowIso();
+  const now = state.nowIso();
   const pct = computeSignedPct(position.side, position.entryPrice, exitPrice);
   const amount = computeSignedAmount(position.notional, pct);
 
@@ -177,27 +178,49 @@ function markModelClosed(position, model, status, exitPrice) {
   };
 }
 
-function findExistingTrackedSignal(pair, side, baseTimeframe) {
-  return loadOpenPositions().find(
+function isBlockingSignal(position) {
+  return Boolean(position?.monitoringActive && position?.blocksNewSignals);
+}
+
+function getActiveSignalSlotLimit() {
+  const runtimeSettings =
+    typeof state.getRuntimeSettings === "function" ? state.getRuntimeSettings() : {};
+  return Math.max(1, Math.floor(Number(runtimeSettings.activeSignalSlots || 1)));
+}
+
+function countBlockingSignals(positions = []) {
+  return positions.filter(isBlockingSignal).length;
+}
+
+function findExistingTrackedSignalInPositions(positions, pair, side, baseTimeframe) {
+  return positions.find(
     (p) =>
       p.pair === String(pair || "").toUpperCase() &&
       p.side === String(side || "").toUpperCase() &&
       p.baseTimeframe === baseTimeframe &&
-      p.monitoringActive &&
-      p.blocksNewSignals
+      isBlockingSignal(p)
   );
 }
 
+function findExistingTrackedSignal(pair, side, baseTimeframe) {
+  return findExistingTrackedSignalInPositions(loadOpenPositions(), pair, side, baseTimeframe);
+}
+
 function canOpenNewSignal() {
-  return !loadOpenPositions().some((p) => p.monitoringActive && p.blocksNewSignals);
+  return countBlockingSignals(loadOpenPositions()) < getActiveSignalSlotLimit();
 }
 
 function registerSignal(signal) {
-  const existing = findExistingTrackedSignal(signal.pair, signal.side, signal.baseTimeframe);
-  if (existing) return existing;
-  if (!canOpenNewSignal()) return null;
-
   const positions = loadOpenPositions();
+  const existing = findExistingTrackedSignalInPositions(
+    positions,
+    signal.pair,
+    signal.side,
+    signal.baseTimeframe
+  );
+  if (existing) return existing;
+  if (countBlockingSignals(positions) >= getActiveSignalSlotLimit()) return null;
+
   const position = createPosition(signal);
   positions.push(position);
   saveOpenPositions(positions);

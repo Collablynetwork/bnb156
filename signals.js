@@ -53,6 +53,28 @@ function uniqueStrings(values) {
   return [...new Set((values || []).map((v) => String(v).trim()).filter(Boolean))];
 }
 
+function asFiniteNumber(value) {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function getFundingBias(fundingRate) {
+  const rate = asFiniteNumber(fundingRate);
+  if (rate == null || rate === 0) return "NEUTRAL";
+  return rate < 0 ? "LONG" : "SHORT";
+}
+
+function passesFundingFilter(side, fundingBias, currentFeatures = {}) {
+  if (fundingBias === "NEUTRAL") return true;
+  if (side !== fundingBias) return false;
+
+  const currentClose = asFiniteNumber(currentFeatures.currentClose);
+  const bbMidBand = asFiniteNumber(currentFeatures.bbBasis);
+
+  if (currentClose == null || bbMidBand == null) return false;
+  return fundingBias === "LONG" ? currentClose < bbMidBand : currentClose > bbMidBand;
+}
+
 function pctPrice(entry, pct, side, kind) {
   const value = Number(entry || 0);
   const move = value * (Number(pct || 0) / 100);
@@ -154,6 +176,11 @@ function buildSignalCandidate(matchResult) {
   const supportTfs = uniqueStrings([baseTimeframe, ...supportTfsRaw]);
   if (supportTfs.length < Number(config.minSupportCount || 3)) return null;
 
+  const currentFlow = matchResult.current?.flow || {};
+  const fundingRate = asFiniteNumber(matchResult.fundingRate ?? currentFlow.fundingRate);
+  const fundingBias = getFundingBias(fundingRate);
+  if (!passesFundingFilter(side, fundingBias, currentFeatures)) return null;
+
   const generated = chooseStopAndTargets(side, entry, currentFeatures);
   const originalSystemTp1 = Number(matchResult.tp1 ?? generated.systemTp1);
   const originalSystemSl = Number(matchResult.sl ?? matchResult.stopLoss ?? generated.systemSl);
@@ -172,6 +199,13 @@ function buildSignalCandidate(matchResult) {
     matchResult.strategy?.mainSourceTimeframe ||
     "N/A";
   const strategyUsed = `${strategySourcePair} ${strategySourceTimeframe}`.trim();
+  const reasons = Array.isArray(matchResult.reasons) ? [...matchResult.reasons] : [];
+
+  if (fundingBias === "LONG") {
+    reasons.unshift("Funding < 0, LONG-only, candle below BB mid-band");
+  } else if (fundingBias === "SHORT") {
+    reasons.unshift("Funding > 0, SHORT-only, candle above BB mid-band");
+  }
 
   return {
     pair: String(matchResult.pair || "").toUpperCase(),
@@ -198,7 +232,10 @@ function buildSignalCandidate(matchResult) {
     baseTf: baseTimeframe,
     supportTfs,
     supportTimeframes: supportTfs,
-    reasons: matchResult.reasons || [],
+    reasons,
+    fundingRate,
+    fundingBias,
+    bbMidBand: asFiniteNumber(currentFeatures.bbBasis),
     strategySourcePair,
     strategySourceTimeframe,
     strategySource: strategyUsed,
