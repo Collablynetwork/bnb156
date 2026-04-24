@@ -138,9 +138,20 @@ function parsePositiveInt(input) {
   return Math.floor(parsed);
 }
 
+function getRuntimeSettingsPath() {
+  if (config.runtimeSettingsPath) return config.runtimeSettingsPath;
+  const storageDir = config.storageDir || path.join(__dirname, "storage");
+  return path.join(storageDir, "runtime-settings.json");
+}
+
 function loadRuntimeSettings() {
-  const runtimeSettings =
-    typeof state.getRuntimeSettings === "function" ? state.getRuntimeSettings() : {};
+  let runtimeSettings =
+    typeof state.getRuntimeSettings === "function" ? state.getRuntimeSettings() : null;
+
+  if (!runtimeSettings || typeof runtimeSettings !== "object") {
+    runtimeSettings = readJsonSafe(getRuntimeSettingsPath(), {});
+  }
+
   return {
     strategyRetentionHours: Number(
       runtimeSettings.strategyRetentionHours || config.defaultStrategyRetentionHours || 4
@@ -155,12 +166,20 @@ function saveRuntimeSettings(nextSettings) {
     return state.saveRuntimeSettings(nextSettings);
   }
 
+  const current = loadRuntimeSettings();
   const finalData = {
-    strategyRetentionHours: Number(nextSettings.strategyRetentionHours || 4),
-    activeSignalSlots: Math.max(1, Math.floor(Number(nextSettings.activeSignalSlots || 1))),
+    ...current,
+    ...nextSettings,
+    strategyRetentionHours: Number(
+      nextSettings.strategyRetentionHours || current.strategyRetentionHours || 4
+    ),
+    activeSignalSlots: Math.max(
+      1,
+      Math.floor(Number(nextSettings.activeSignalSlots || current.activeSignalSlots || 1))
+    ),
     updatedAt: new Date().toISOString(),
   };
-  writeJsonSafe(config.runtimeSettingsPath, finalData);
+  writeJsonSafe(getRuntimeSettingsPath(), finalData);
   return finalData;
 }
 
